@@ -169,7 +169,7 @@ export default function DashboardPage() {
             <table className="w-full text-sm">
               <thead className="bg-blue-50/70 text-xs text-slate-500">
                 <tr>
-                  {["จุดติดตั้ง", "สถานะ", "สัญญาณ 4G", "เสา / Band", "อุปกรณ์", "Data สะสม", "ล่าสุด", ""].map((h) => (
+                  {["ชื่อ Wifi", "สถานะ", "สัญญาณ 4G", "เสา / Band", "อุปกรณ์", "Data สะสม", "ล่าสุด", ""].map((h) => (
                     <th key={h} className="whitespace-nowrap px-5 py-3.5 text-left font-medium">{h}</th>
                   ))}
                 </tr>
